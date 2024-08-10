@@ -1,0 +1,22 @@
++----------------------------------+
+|           MyRectangle            |
++----------------------------------+
+| - topLeft: MyPoint               |
+| - bottomRight: MyPoint           |
++----------------------------------+
+| + MyRectangle(x1:int, y1:int,    |
+|              x2:int, y2:int)     |
+| + MyRectangle(topLeft:MyPoint,   |
+|              bottomRight:MyPoint)|
+| + getTopLeft(): MyPoint          |
+| + setTopLeft(topLeft: MyPoint):  |
+|   void                           |
+| + getBottomRight(): MyPoint      |
+| + setBottomRight(bottomRight:    |
+|   MyPoint): void                 |
+| + getWidth(): int                |
+| + getHeight(): int               |
+| + getArea(): int                 |
+| + getPerimeter(): int            |
+| + toString(): String             |
++----------------------------------+
